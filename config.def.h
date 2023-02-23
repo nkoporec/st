@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono Medium:pixelsize=21:antialias=true:autohint=true";
-static int borderpx = 2;
+static char *font = "JetBrainsMono Medium:pixelsize=20:antialias=true:autohint=true";
+static int borderpx = 1;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -27,7 +27,7 @@ char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
 static float cwscale = 0.9;
-static float chscale = 1.1;
+static float chscale = 1.0;
 
 /*
  * word delimiter string
